@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="California gym abu dhabi | Gym in Al Khalidiyah | Ladies gym in Abu Dhabi">
     <meta name="description" content="Gym on Corniche with Sauna, Gym in Abu dhabi price, Fitness club in Abu Dhabi, Gym in Abu dhabi city, Gym in Abu Dhabi with swimming pool">
-    <meta name="keywords" content="gym, fitness, personal training, strength training, fitness center">
+    <meta name="keywords" content="gym, fitness, personal training, strength training, fitness center, mma, boxing, equipment, weight lifting, cardio, weight training, strength training">
     <title>California Gym | Premium Gym</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,16 +30,16 @@
                 <img src="assets/gym-logo.png" alt="Gym Logo">
             </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#trainers">Trainers</a></li>
-                <li><a href="#membership">Membership</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/membership">Membership</a></li>
+                <li><a href="/facilities">Facilities</a></li>
+                <li><a href="/trainers">Trainers</a></li>
+                <li><a href="/programs">Programs</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
-            <div class="dark-mode-toggle">
-                <i class="fas fa-moon"></i>
+            <div class="cta-buttons">
+                <a href="/membership" class="cta-button">Join Now</a>
+                <a href="/free-trial" class="cta-button secondary">Join for Free</a>
             </div>
         </div>
     </nav>
@@ -50,9 +50,12 @@
             <img src="assets/hero-bg.jpg" alt="Gym Hero Background">
         </div>
         <div class="container">
-            <h1>Transform Your Body</h1>
-            <p>Experience premium fitness at our state-of-the-art facility</p>
-            <a href="#membership" class="cta-button">Join Now</a>
+            <h1>Transform Your Body, Transform Your Life</h1>
+            <p>Experience world-class training facilities and expert guidance at California Gym</p>
+            <div class="hero-cta">
+                <a href="/membership" class="cta-button">Start Your Journey</a>
+                <a href="/programs" class="cta-button secondary">Explore Programs</a>
+            </div>
         </div>
     </section>
 
@@ -61,9 +64,25 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2>About Us</h2>
-                    <p>Our fitness center is more than just a gym - it's a community of dedicated individuals striving for excellence. Our state-of-the-art facilities and expert trainers provide the perfect environment for your fitness journey.</p>
-                    <p>With cutting-edge equipment and personalized training programs, we help you achieve your fitness goals while maintaining the highest standards of luxury and comfort.</p>
+                    <h2>Welcome to California Gym</h2>
+                    <p>At California Gym, we're more than just a fitness center – we're a community dedicated to helping you achieve your fitness goals. Our state-of-the-art facilities and expert trainers are here to support your journey to a healthier lifestyle.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <h3>Premium Equipment</h3>
+                            <p>Access to the latest fitness technology</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h3>Expert Trainers</h3>
+                            <p>Certified professionals to guide you</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h3>Flexible Hours</h3>
+                            <p>24/7 access for your convenience</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="about-image">
                     <img src="assets/gym-interior.jpg" alt="Gym Interior">
@@ -78,24 +97,52 @@
             <h2>Our Programs</h2>
             <div class="program-cards">
                 <div class="program-card">
+                    <i class="fas fa-fist-raised"></i>
+                    <h3>MMA Training</h3>
+                    <p>Master the art of mixed martial arts with our expert instructors.</p>
+                    <a href="/programs/mma-classes" class="program-link">Learn More</a>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-boxing-glove"></i>
+                    <h3>Boxing</h3>
+                    <p>Develop strength, speed, and technique in our boxing classes.</p>
+                    <a href="/programs/boxing-classes" class="program-link">Learn More</a>
+                </div>
+                <div class="program-card">
                     <i class="fas fa-dumbbell"></i>
                     <h3>Strength Training</h3>
-                    <p>Build muscle and increase power with our expert-led strength training programs.</p>
-                </div>
-                <div class="program-card">
-                    <i class="fas fa-running"></i>
-                    <h3>Functional Fitness</h3>
-                    <p>Improve mobility and overall fitness with our functional training programs.</p>
-                </div>
-                <div class="program-card">
-                    <i class="fas fa-heartbeat"></i>
-                    <h3>Cardio</h3>
-                    <p>Boost your endurance and cardiovascular health with our cardio programs.</p>
+                    <p>Build muscle and increase power with our strength programs.</p>
+                    <a href="/programs/strength-training" class="program-link">Learn More</a>
                 </div>
                 <div class="program-card">
                     <i class="fas fa-user-tie"></i>
                     <h3>Personal Training</h3>
-                    <p>Get one-on-one attention with our certified personal trainers.</p>
+                    <p>Get personalized attention with our certified trainers.</p>
+                    <a href="/programs/personal-training" class="program-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <h2>Our Facilities</h2>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <img src="assets/equipment.jpg" alt="Premium Equipment">
+                    <h3>Premium Equipment</h3>
+                    <p>State-of-the-art workout benches, warehouse racking, and kettlebell sets</p>
+                </div>
+                <div class="facility-card">
+                    <img src="assets/boxing-ring.jpg" alt="Boxing Ring">
+                    <h3>Boxing Ring</h3>
+                    <p>Professional boxing ring for training and sparring</p>
+                </div>
+                <div class="facility-card">
+                    <img src="assets/cardio-area.jpg" alt="Cardio Area">
+                    <h3>Cardio Zone</h3>
+                    <p>Dedicated area for cardio workouts</p>
                 </div>
             </div>
         </div>
@@ -104,92 +151,55 @@
     <!-- Trainers Section -->
     <section id="trainers" class="trainers">
         <div class="container">
-            <h2>Our Trainers</h2>
+            <h2>Our Expert Trainers</h2>
             <div class="trainer-cards">
                 <div class="trainer-card">
                     <img src="assets/trainer1.jpg" alt="Trainer 1">
                     <h3>Alex Johnson</h3>
-                    <p>Strength & Conditioning Specialist</p>
+                    <p>MMA & Boxing Specialist</p>
+                    <div class="trainer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
                 <div class="trainer-card">
                     <img src="assets/trainer2.jpeg" alt="Trainer 2">
                     <h3>Emma Wilson</h3>
-                    <p>Functional Fitness Expert</p>
+                    <p>Strength & Conditioning Expert</p>
+                    <div class="trainer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
                 <div class="trainer-card">
                     <img src="assets/trainer3.jpg" alt="Trainer 3">
                     <h3>Michael Brown</h3>
                     <p>Personal Training Director</p>
+                    <div class="trainer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Membership Section -->
-    <section id="membership" class="membership">
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
         <div class="container">
-            <h2>Membership Plans</h2>
-            <div class="membership-cards">
-                <div class="membership-card">
-                    <h3>Basic</h3>
-                    <div class="price">$49<span>/month</span></div>
-                    <ul>
-                        <li>Access to all equipment</li>
-                        <li>Group classes</li>
-                        <li>Locker room access</li>
-                    </ul>
-                    <a href="#contact" class="join-button">Join Now</a>
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What are your membership options?</h3>
+                    <p>We offer various membership plans including monthly, quarterly, and annual options. Each plan comes with different benefits and access levels.</p>
                 </div>
-                <div class="membership-card featured">
-                    <h3>Premium</h3>
-                    <div class="price">$79<span>/month</span></div>
-                    <ul>
-                        <li>All Basic features</li>
-                        <li>Personal training sessions</li>
-                        <li>Nutrition consultation</li>
-                        <li>Priority booking</li>
-                    </ul>
-                    <a href="#contact" class="join-button">Join Now</a>
+                <div class="faq-item">
+                    <h3>Do you offer personal training?</h3>
+                    <p>Yes, we have certified personal trainers available for one-on-one sessions. You can choose from different packages based on your needs.</p>
                 </div>
-                <div class="membership-card">
-                    <h3>Elite</h3>
-                    <div class="price">$129<span>/month</span></div>
-                    <ul>
-                        <li>All Premium features</li>
-                        <li>Unlimited personal training</li>
-                        <li>VIP lounge access</li>
-                        <li>24/7 access</li>
-                    </ul>
-                    <a href="#contact" class="join-button">Join Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <h2>Gallery</h2>
-            <div class="gallery-grid">
-                <img src="assets/gallery1.jpg" alt="Gym interior" loading="lazy">
-                <img src="assets/gallery2.jpg" alt="Training session" loading="lazy">
-                <img src="assets/gallery3.jpg" alt="Equipment" loading="lazy">
-                <img src="assets/gallery4.jpg" alt="Group class" loading="lazy">
-                <img src="assets/gallery5.jpg" alt="Personal training" loading="lazy">
-                <img src="assets/gallery6.jpg" alt="Cardio area" loading="lazy">
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <h2>Member Stories</h2>
-            <div class="testimonial-carousel">
-                <div class="testimonial">
-                    <i class="fas fa-quote-left"></i>
-                    <p>"This gym transformed my fitness journey. The trainers are exceptional and the facilities are world-class."</p>
-                    <h4>- David R.</h4>
+                <div class="faq-item">
+                    <h3>What equipment do you have?</h3>
+                    <p>Our facility is equipped with premium workout benches, warehouse racking, kettlebell sets, and state-of-the-art cardio equipment.</p>
                 </div>
             </div>
         </div>
@@ -204,6 +214,13 @@
                     <form>
                         <input type="text" placeholder="Name" required>
                         <input type="email" placeholder="Email" required>
+                        <select required>
+                            <option value="">Select Program</option>
+                            <option value="mma">MMA Training</option>
+                            <option value="boxing">Boxing</option>
+                            <option value="strength">Strength Training</option>
+                            <option value="personal">Personal Training</option>
+                        </select>
                         <textarea placeholder="Message" required></textarea>
                         <button type="submit" class="submit-button">Send Message</button>
                     </form>
@@ -211,24 +228,21 @@
                 <div class="contact-info">
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p>123 Fitness Street, City, Country</p>
+                        <p>123 Fitness Street, Abu Dhabi, UAE</p>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
-                        <p>+1 234 567 8900</p>
+                        <p>+971 2 123 4567</p>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
-                        <p>info@elitefitness.com</p>
+                        <p>info@californiagym.com</p>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-clock"></i>
-                        <p>Mon-Fri: 6:00 AM - 11:00 PM<br>Sat-Sun: 8:00 AM - 10:00 PM</p>
+                        <p>24/7 Access for Members</p>
                     </div>
                 </div>
-            </div>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.217666130567!2d-73.987844924164!3d40.757985971389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzI4LjciTiA3M8KwNTknMTQuMiJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
@@ -240,20 +254,34 @@
                 <div class="footer-logo">
                     <img src="assets/gym-logo.png" alt="Gym Logo">
                 </div>
-                <div class="social-links">
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
                 <div class="footer-links">
-                    <a href="#about">About</a>
-                    <a href="#programs">Programs</a>
-                    <a href="#membership">Membership</a>
-                    <a href="#contact">Contact</a>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <a href="/membership">Membership</a>
+                        <a href="/programs">Programs</a>
+                        <a href="/trainers">Trainers</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Programs</h3>
+                        <a href="/programs/mma-classes">MMA Training</a>
+                        <a href="/programs/boxing-classes">Boxing</a>
+                        <a href="/programs/strength-training">Strength Training</a>
+                        <a href="/programs/personal-training">Personal Training</a>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2024 Elite Fitness Center. All rights reserved.</p>
+                <p>&copy; 2024 California Gym. All rights reserved.</p>
             </div>
         </div>
     </footer>
